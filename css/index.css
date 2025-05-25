@@ -1,0 +1,197 @@
+/*Damos formato al header*/
+
+@font-face {
+    font-family: 'altone';
+    src: url(../fonts/Altone\ Trial-Bold.ttf);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.nav-link {
+    font-weight: bolder;
+}
+
+.container-fluid {
+    background: linear-gradient(to bottom, #11bcab, #ffffff);
+}
+
+.container-fluid h1 {
+    margin-top: 10px;
+    font-family: 'altone', Arial, Helvetica, sans-serif;
+}
+
+/*Damos formato al body*/
+#backgroundDiv {
+    width: 100%;
+    padding-bottom: 60%;
+    background-image: url("../media/fotoHeader.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    /*Es el color del texto*/
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+#texto1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+
+.navbar-toggler {
+    margin-top: 5px;
+}
+
+/*Sección de Quien Soy*/
+
+.quienSoy h1 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.quienSoy h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.quienSoy p {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*Damos formato al footer*/
+footer {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor {
+    background: linear-gradient(to bottom, #11bcab, #ffffff);
+}
+
+.condicionesLegales h2 {
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(248, 25, 25);
+}
+
+.condicionesLegales a {
+    width: auto;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin-left: 9px;
+}
+
+.contacto h2 {
+    margin-top: 10px;
+    font-weight: bolder;
+    color: rgb(248, 25, 25);
+}
+
+#phone {
+    display: inline-flex;
+}
+
+#phone p {
+    font-weight: bolder;
+    color: white;
+}
+
+#email {
+    display: inline-flex;
+}
+
+#email p {
+    margin-left: 5px;
+    font-weight: bolder;
+    color: white;
+}
+
+#ubication {
+    display: inline-flex;
+}
+
+#ubication p {
+    font-weight: bolder;
+    color: white;
+}
+
+#derechosReservados {
+    color: grey;
+    font-size: 12px;
+}
+
+.redes {
+    margin-bottom: 20px;
+}
+
+/*Ajustamos contenido para pantalla de ordenador de sobremesa, portatil y tablet*/
+
+@media screen and (min-width: 700px) and (max-width: 3270px) {
+
+    /*Damos formato a la cabecera y al menú*/
+
+    .cabecera {
+        width: 98vw;
+    }
+
+    .container-fluid {
+        width: 98vw;
+        margin-left: 10px;
+    }
+
+    .nav-item {
+        margin-left: 30px;
+    }
+
+    /*Imágen con título*/
+
+    #backgroundDiv {
+        width: 90%;
+        margin: 40px auto;
+        padding-bottom: 40%;
+        border-radius: 20px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    /*Damos formato al footer*/
+    .contenedor {
+        width: 98vw;
+    }
+
+}
