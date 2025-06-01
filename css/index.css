@@ -15,7 +15,7 @@
 .logo img {
     display: block;
     margin: 0 auto;
-    height: 200px;
+    height: 260px;
     padding-bottom: 10px;
 }
 
@@ -84,10 +84,45 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.quienSoy h4 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 .quienSoy p {
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+/*Seccion de tratamientos*/
+.accordion {
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(17, 188, 171, 0.5);
+}
+
+.accordion h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.accordion-item h2 {
+    background-color: rgb(203, 249, 234);
+}
+
+.accordion-item strong {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.accordion-button {
+    background-color: rgb(221, 247, 249);
 }
 
 /*Damos formato al footer*/
