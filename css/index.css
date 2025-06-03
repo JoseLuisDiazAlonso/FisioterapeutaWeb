@@ -57,6 +57,7 @@
 
 #texto1 {
     position: absolute;
+    font-family: 'altone', Arial, Helvetica, sans-serif;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -67,7 +68,25 @@
     margin-top: 5px;
 }
 
+.cuerpo {
+    width: 98vw;
+    margin: auto;
+    background-image: url(../media/backgroundImage.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /*Sección de Quien Soy*/
+
+.quienSoy {
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+    background-color: aliceblue;
+    padding-top: 10px;
+}
 
 .quienSoy h1 {
     margin-top: 10px;
@@ -99,8 +118,8 @@
 
 /*Seccion de tratamientos*/
 .accordion {
-    width: fit-content;
-    margin: 0 auto;
+    width: auto;
+    margin: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     background-color: rgba(17, 188, 171, 0.5);
@@ -217,11 +236,23 @@ footer {
     /*Imágen con título*/
 
     #backgroundDiv {
-        width: 90%;
-        margin: 40px auto;
+        width: 95%;
+        margin: auto;
+        margin-bottom: 30px;
         padding-bottom: 40%;
         border-radius: 20px;
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .quienSoy {
+        width: 80vw;
+        margin: auto;
+    }
+
+    .accordion {
+        width: 80vw;
+        margin: auto;
+        margin-top: 30px;
     }
 
     /*Damos formato al footer*/
