@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 2%;
+    padding-bottom: 0.09%;
 }
 
 .logo img {
@@ -71,6 +71,7 @@
 .cuerpo {
     width: 98vw;
     margin: auto;
+    padding-top: 20px;
     background-image: url(../media/backgroundImage.jpeg);
     background-size: cover;
     background-position: center;
@@ -90,6 +91,7 @@
 
 .quienSoy h1 {
     margin-top: 10px;
+    font-family: 'altone', Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: bolder;
     text-align: center;
@@ -98,6 +100,7 @@
 
 .quienSoy h2 {
     font-size: 20px;
+    font-family: 'altone', Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -127,13 +130,15 @@
 
 .accordion h1 {
     text-align: center;
-    font-weight: bold;
+    font-weight: bolder;
+    font-family: 'altone', Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .accordion-item h2 {
     background-color: rgb(203, 249, 234);
+    font-family: 'altone', Arial, Helvetica, sans-serif;
 }
 
 .accordion-item strong {
@@ -142,6 +147,47 @@
 
 .accordion-button {
     background-color: rgb(221, 247, 249);
+}
+
+/*Damos formato a la sección de pedir cita*/
+#pideCita {
+    width: auto;
+    margin: 10px;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    background-image: url(../media/imagen_pedirCita.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#pideCita h1 {
+    font-weight: bolder;
+    font-family: 'altone', Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#pideCita p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cita-link {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    max-width: 100%;
+    text-decoration: none;
+}
+
+.cita-link img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /*Damos formato al footer*/
@@ -250,6 +296,12 @@ footer {
     }
 
     .accordion {
+        width: 80vw;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    #pideCita {
         width: 80vw;
         margin: auto;
         margin-top: 30px;
