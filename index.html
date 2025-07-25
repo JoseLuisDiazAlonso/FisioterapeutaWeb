@@ -40,7 +40,7 @@
                                 <a class="nav-link" href="#pideCita">Pide Cita</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Ubicación y Contacto</a>
+                                <a class="nav-link" href="#ubicacionContacto">Ubicación y Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -135,8 +135,8 @@
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            La ciátia se caracteriza por un dolor que irradia desde la zona lumbar hacia la pierna,
-                            debikdo
+                            La ciática se caracteriza por un dolor que irradia desde la zona lumbar hacia la pierna,
+                            debido
                             a la
                             irritación del nervio ciático.
                         </div>
@@ -225,9 +225,9 @@
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             El dolor miofascial es una molestia que se origina en los <strong>músculos y en la
-                                facia</strong>(el
+                                fascia</strong>(el
                             tejido conectivo que los recubre).
-                            Suele estar asociado a la presencia de <strong>puntos gatillo:</strong>zonas pequeñas de
+                            Suele estar asociado a la presencia de <strong>puntos gatillo:</strong> zonas pequeñas de
                             gran
                             tensión dentro del músculo, que al presionarse
                             puede generar dolor local o irradiado a otras partes del cuerpo.
@@ -264,7 +264,7 @@
                         <div class="accordion-body">
                             Un esguince es una lesión en los ligamentos que conectan los huesos entre si, causada
                             generalmente por un estiramiento o torsión brusca. Provoca dolor, inflamación y
-                            dificultadpara
+                            dificultad para
                             mover
                             la articulación afectada.
                         </div>
@@ -280,7 +280,7 @@
                     <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            La tendinitis es la inflamación o irritación de un tendón, el tejido que une el másculo al
+                            La tendinitis es la inflamación o irritación de un tendón, el tejido que une el músculo al
                             hueso,
                             generalmente
                             causada por sobrecarga o movimientos repetitivos. <br>
@@ -318,6 +318,31 @@
             </a>
         </section>
 
+        <!--Sección para localización y contactos-->
+
+        <section id="ubicacionContacto">
+            <div class="contacto">
+                <h1>CONTACTA CON NOSOTROS</h1>
+                <p>C/Pablo Picasso, 3
+                    28922 Alcorcón, Madrid
+                </p>
+                <p>+34 640 30 29 17</p>
+                <p>danydiazclinic@gmail.com</p>
+                <div class="posicion">
+                    <div id="map"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Aqui añadimos la sección del whatsap-->
+
+        <div class="icono_whatsapp">
+            <a href="https://api.whatsapp.com/send/?phone=34640302917" target="_blank" rel="noopener">
+                <img src="./media/icono_Whatsapp.png" alt="Icono de Whatsapp" height="60">
+            </a>
+        </div>
+
     </div>
     <!--Footer-->
 
@@ -326,9 +351,9 @@
             <!--Condiciones legales-->
             <div class="condicionesLegales">
                 <h2>CONDICIONES LEGALES</h2>
-                <a href="#">Aviso Legal</a>
-                <a href="#">Politica de Privacidad</a>
-                <a href="#">Política de Cookies</a>
+                <a href="./avisoLegal.html">Aviso Legal</a>
+                <a href="./politicaPrivacidad.html">Politica de Privacidad</a>
+                <a href="./politicaCookies.html">Política de Cookies</a>
             </div>
             <!--Contacto-->
             <div class="contacto">
@@ -344,7 +369,7 @@
 
                 <div id="ubication">
                     <img src="./media/ubication.png" alt="icono de ubicacion" height="30">
-                    <p>Clínica Ensana, C/Pablo Picaso, 3. 28922 Alcorcón, Madrid</p>
+                    <p>Clínica Ensana, C/Pablo Picasso, 3. 28922 Alcorcón, Madrid</p>
                 </div>
 
 
@@ -362,6 +387,9 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="./js/index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkr0TiUh0j8MFuZHQ18YTHT1RQIZng_2s&callback=initMap"
+        async defer></script>
+
 </body>
 
 </html>

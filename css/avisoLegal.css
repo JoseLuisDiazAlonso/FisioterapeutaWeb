@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'altone';
+    src: url(../fonts/Altone\ Trial-Bold.ttf);
+}
+
+.avisoLegal {
+    background-image: url(../media/backgroundImage.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+
+.avisoLegal h1 {
+    font-family: 'altone', Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+}
+
+.avisoLegal h2 {
+    margin-left: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.avisoLegal p {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}

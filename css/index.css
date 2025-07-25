@@ -72,6 +72,7 @@
     width: 98vw;
     margin: auto;
     padding-top: 20px;
+    padding-bottom: 20px;
     background-image: url(../media/backgroundImage.jpeg);
     background-size: cover;
     background-position: center;
@@ -190,6 +191,32 @@
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/*Sección para maps*/
+
+#ubicacionContacto {
+    width: auto;
+    margin: 10px;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.7;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contacto h1 {
+    font-weight: bolder;
+    font-family: 'altone', Arial, Helvetica, sans-serif;
+}
+
+.contacto p {
+    font-weight: bolder;
+}
+#map {
+    height: 400px;
+    width: 100%;
+}
+
 /*Damos formato al footer*/
 footer {
     display: flex;
@@ -205,7 +232,8 @@ footer {
 .condicionesLegales h2 {
     text-align: center;
     font-weight: bolder;
-    color: rgb(248, 25, 25);
+    color: rgb(27, 26, 26);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .condicionesLegales a {
@@ -213,14 +241,15 @@ footer {
     display: block;
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: rgb(14, 96, 48);
     margin-left: 9px;
 }
 
 .contacto h2 {
     margin-top: 10px;
     font-weight: bolder;
-    color: rgb(248, 25, 25);
+    color: rgb(27, 26, 26);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 #phone {
@@ -229,7 +258,7 @@ footer {
 
 #phone p {
     font-weight: bolder;
-    color: white;
+    color: rgb(14, 96, 48);
 }
 
 #email {
@@ -239,7 +268,7 @@ footer {
 #email p {
     margin-left: 5px;
     font-weight: bolder;
-    color: white;
+    color: rgb(14, 96, 48);
 }
 
 #ubication {
@@ -248,7 +277,7 @@ footer {
 
 #ubication p {
     font-weight: bolder;
-    color: white;
+    color: rgb(14, 96, 48);
 }
 
 #derechosReservados {
@@ -258,6 +287,20 @@ footer {
 
 .redes {
     margin-bottom: 20px;
+}
+
+/*Damos formato al icono del whatsapp*/
+
+.icono_whatsapp {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    transition: opacity 0.5s;
+}
+
+.icono_whatsapp a {
+    display: block;
 }
 
 /*Ajustamos contenido para pantalla de ordenador de sobremesa, portatil y tablet*/
@@ -302,6 +345,12 @@ footer {
     }
 
     #pideCita {
+        width: 80vw;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    #ubicacionContacto {
         width: 80vw;
         margin: auto;
         margin-top: 30px;
