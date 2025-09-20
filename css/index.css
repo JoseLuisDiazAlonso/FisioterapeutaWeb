@@ -303,6 +303,32 @@ footer {
     display: block;
 }
 
+/*Damos formato al botón para ir a la parte superior del menú*/
+
+.go-up {
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 16px;
+    font-weight: bold;
+    color: #eb5050;
+    cursor: pointer;
+    padding: 10px;
+   
+}
+
+.go-up:hover {
+    background: #ddd;
+}
+
+.content {
+    height: 2000px;
+    background: linear-gradient(#fff, #ccc);
+}
+
+
 /*Ajustamos contenido para pantalla de ordenador de sobremesa, portatil y tablet*/
 
 @media screen and (min-width: 700px) and (max-width: 3270px) {
