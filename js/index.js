@@ -33,4 +33,13 @@ function initMap() {
     map: map,
     title: "C/Pablo Picasso, 3, Alcorcón (Madrid)",
   });
+
+  //Añadimos una sección para controlar el scroll
 }
+
+function scrollToTop () {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' //para un scroll suave
+    });
+  }
